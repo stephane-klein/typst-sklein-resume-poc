@@ -188,7 +188,6 @@
     #box(width: 1fr, line(stroke: 0.9pt, length: 100%))
 
     // Section content
-    // CV Entry 4.1
     #CvEntry(
         jobTitle: "CTO",
         date: "Avril 2019 - Juin 2023",
@@ -200,7 +199,6 @@
         ]
     )
 
-    // CV Entry 4.2
     #CvEntry(
         jobTitle: "Devops Engineer, Product Owner",
         date: "Janvier 2018 - Avril 2023",
@@ -212,7 +210,6 @@
         ]
     )
 
-    // CV Entry 4.3
     #CvEntry(
         jobTitle: "Devops Engineer",
         date: "Janvier 2016 - Décembre 2017",
@@ -224,7 +221,6 @@
         ]
     )
 
-    // CV Entry 4.4
     #CvEntry(
         jobTitle: "Fullstack Developer",
         date: "Janvier 2016 - Décembre 2017",
@@ -236,7 +232,6 @@
         ]
     )
 
-    // CV Entry 4.5
     #CvEntry(
         jobTitle: "R&D Developer",
         date: "Août 2012 - Janvier 2016",
@@ -248,7 +243,6 @@
         ]
     )
 
-    // CV Entry 4.6
     #CvEntry(
         jobTitle: "Product Management, Lead Developer, Devops",
         date: "Janvier 2006 - Juillet 2012",
@@ -260,11 +254,54 @@
         ]
     )
 
-    // CV Entry 4.7
     #CvEntry(
         jobTitle: "Développeur sénior",
         date: "Septembre 2005 - Décembre 2005",
         companyName: "Linbox",
+        location: "Metz",
+        description: [
+          - #lorem(40)
+          - #lorem(30)
+        ]
+    )
+
+    #CvEntry(
+        jobTitle: "Développeur sénior",
+        date: "Septembre 2005 - Décembre 2005",
+        companyName: "Linbox FAS",
+        location: "Metz",
+        description: [
+          - #lorem(40)
+          - #lorem(30)
+        ]
+    )
+
+    #CvEntry(
+        jobTitle: "Développeur site web",
+        date: "Janvier 2005 - Décembre 2005",
+        companyName: "Freelance",
+        location: "Metz",
+        description: [
+          - #lorem(40)
+          - #lorem(30)
+        ]
+    )
+
+    #CvEntry(
+        jobTitle: "Développeur sénior",
+        date: "Janvier 2005 - Décembre 2005",
+        companyName: "Linbox FAS",
+        location: "Metz",
+        description: [
+          - #lorem(40)
+          - #lorem(30)
+        ]
+    )
+
+    #CvEntry(
+        jobTitle: "Développeur web, Administrateur système, Responsable technique",
+        date: "Novembre 2001 - Aoùt 2003",
+        companyName: "KTP Concept",
         location: "Metz",
         description: [
           - #lorem(40)
