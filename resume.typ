@@ -182,131 +182,29 @@
     ]
 )
 
+
+
 // Section 4 : Professional Experience
 #Section(
     title: ("Exp", "érience professionnelle"),
     content: [
         // Section content
-        #CvEntry(
-            jobTitle: "CTO",
-            date: "Avril 2019 - Juin 2023",
-            companyName: "Spacefill",
-            location: "Paris",
-            description: [
-              - #lorem(40)
-              - #lorem(30)
-            ]
-        )
-
-        #CvEntry(
-            jobTitle: "Devops Engineer, Product Owner",
-            date: "Janvier 2018 - Avril 2023",
-            companyName: "Scaleway",
-            location: "Paris",
-            description: [
-              - #lorem(40)
-              - #lorem(30)
-            ]
-        )
-
-        #CvEntry(
-            jobTitle: "Devops Engineer",
-            date: "Janvier 2016 - Décembre 2017",
-            companyName: "Tech-Angels",
-            location: "France, full-remote",
-            description: [
-              - #lorem(40)
-              - #lorem(30)
-            ]
-        )
-
-        #CvEntry(
-            jobTitle: "Fullstack Developer",
-            date: "Janvier 2016 - Décembre 2017",
-            companyName: "Gemnasium",
-            location: "France, full-remote",
-            description: [
-              - #lorem(40)
-              - #lorem(30)
-            ]
-        )
-
-        #CvEntry(
-            jobTitle: "R&D Developer",
-            date: "Août 2012 - Janvier 2016",
-            companyName: "Bearstech",
-            location: "France, full-remote",
-            description: [
-              - #lorem(40)
-              - #lorem(30)
-            ]
-        )
-
-        #CvEntry(
-            jobTitle: "Product Management, Lead Developer, Devops",
-            date: "Janvier 2006 - Juillet 2012",
-            companyName: "IS-Webdesign",
-            location: "Metz",
-            description: [
-              - #lorem(40)
-              - #lorem(30)
-            ]
-        )
-
-        #CvEntry(
-            jobTitle: "Développeur sénior",
-            date: "Septembre 2005 - Décembre 2005",
-            companyName: "Linbox",
-            location: "Metz",
-            description: [
-              - #lorem(40)
-              - #lorem(30)
-            ]
-        )
-
-        #CvEntry(
-            jobTitle: "Développeur sénior",
-            date: "Septembre 2005 - Décembre 2005",
-            companyName: "Linbox FAS",
-            location: "Metz",
-            description: [
-              - #lorem(40)
-              - #lorem(30)
-            ]
-        )
-
-        #CvEntry(
-            jobTitle: "Développeur site web",
-            date: "Janvier 2005 - Décembre 2005",
-            companyName: "Freelance",
-            location: "Metz",
-            description: [
-              - #lorem(40)
-              - #lorem(30)
-            ]
-        )
-
-        #CvEntry(
-            jobTitle: "Développeur sénior",
-            date: "Janvier 2005 - Décembre 2005",
-            companyName: "Linbox FAS",
-            location: "Metz",
-            description: [
-              - #lorem(40)
-              - #lorem(30)
-            ]
-        )
-
-        #CvEntry(
-            jobTitle: "Développeur web, Administrateur système, Responsable technique",
-            date: "Novembre 2001 - Aoùt 2003",
-            companyName: "KTP Concept",
-            location: "Metz",
-            description: [
-              - #lorem(40)
-              - #lorem(30)
-            ]
-        )
+        #{
+            for (jobTitle, date, companyName, location) in yaml("resume.yaml").experiences {
+                [
+                    #CvEntry(
+                        jobTitle: jobTitle,
+                        date: date,
+                        companyName: companyName,
+                        location: location,
+                        description: [
+                          - #lorem(40)
+                          - #lorem(30)
+                        ]
+                    )
+                ]
+            }
+        }
     ]
 )
 
