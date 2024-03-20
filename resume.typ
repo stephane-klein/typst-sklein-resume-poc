@@ -45,15 +45,38 @@
         top: .8cm,
         bottom: .4cm,
     ),
+    header: context {
+        if counter(page).get().first() == 1 [
+            #set text(
+                size: 6pt,
+                fill: rgb("#aaa")
+            )
+            #align(
+                right,
+                "Dernière mise à jour le 20 mars 2024"
+            )
+        ]
+    },
     footer: pad(
         y: -10pt,
         [
-            #set align(right)
             #set text(
                 size: 8pt,
-                fill: rgb("#777")
+                fill: rgb("#aaa")
             )
-            #counter(page).display("1 sur 1", both:true)
+            #grid(
+                columns: (auto, 1fr),
+                [
+                    Dernière version du document disponible sur https://cv.sklein.xyz
+                    #h(10pt)
+                ],
+                {
+                    align(
+                        right,
+                        counter(page).display("1 sur 1", both:true)
+                    )
+                }
+            )
         ]
     )
 )
