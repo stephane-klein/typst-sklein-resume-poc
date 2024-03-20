@@ -159,7 +159,12 @@
 #Section(
     title: ("Pro", "file"),
     content: [
-        #lorem(80)
+        #balanced-columns(
+            count: 2,
+            [
+                #lorem(80)
+            ]
+        )
     ]
 )
 
@@ -168,7 +173,12 @@
 #Section(
     title: ("Dom", "aine d'expertise"),
     content: [
-        #lorem(80)
+        #balanced-columns(
+            count: 2,
+            [
+                #lorem(80)
+            ]
+        )
     ]
 )
 

@@ -61,3 +61,14 @@
           #v(8pt)
       ]
 )
+
+#let balanced-columns(count: 2, gutter: 4%, body) = {
+    layout(size =>
+        style(styles => {
+            let height = measure(
+                block(width: size.width*(90% - gutter * (count - 1))/count, body),
+                styles
+        ).height/count
+    block(height: height, columns(count, gutter: gutter, body))
+}))
+}
