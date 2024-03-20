@@ -1,5 +1,6 @@
 #let headerFont = ("Roboto")
 #import "@preview/fontawesome:0.1.0": *
+#import "template.typ": *
 
 // Configuration
 #let firstName = "Stéphane"
@@ -188,130 +189,87 @@
 
     // Section content
     // CV Entry 4.1
-    #block(
-        breakable: false,
-        [
-            #grid(
-                columns: (1fr, auto),
-                row-gutter: 6pt,
-                {text(size: 10pt, weight: "bold", "CTO")},
-                {align(right, text(weight: "medium", fill: themeColor, style: "oblique", "Avril 2019 - Juin 2023"))},
-                {text(size: 8pt, weight: "medium", fill: themeColor, "Spacefill")},
-                {align(right, text(size: 8pt, weight: "medium", fill: gray, style: "oblique", "Paris"))}
-            )
-            - #lorem(40)
-            - #lorem(30)
-            #v(8pt)
+    #CvEntry(
+        jobTitle: "CTO",
+        date: "Avril 2019 - Juin 2023",
+        companyName: "Spacefill",
+        location: "Paris",
+        description: [
+          - #lorem(40)
+          - #lorem(30)
         ]
     )
 
     // CV Entry 4.2
-    #block(
-        breakable: false,
-        [
-            #grid(
-                columns: (1fr, auto),
-                row-gutter: 6pt,
-                {text(size: 10pt, weight: "bold", "Devops Engineer, Product Owner")},
-                {align(right, text(weight: "medium", fill: themeColor, style: "oblique", "Janvier 2018 - Avril 2023"))},
-                {text(size: 8pt, weight: "medium", fill: themeColor, "Scaleway")},
-                {align(right, text(size: 8pt, weight: "medium", fill: gray, style: "oblique", "Paris"))}
-            )
-            - #lorem(40)
-            - #lorem(30)
-            #v(8pt)
+    #CvEntry(
+        jobTitle: "Devops Engineer, Product Owner",
+        date: "Janvier 2018 - Avril 2023",
+        companyName: "Scaleway",
+        location: "Paris",
+        description: [
+          - #lorem(40)
+          - #lorem(30)
         ]
     )
 
     // CV Entry 4.3
-    #block(
-        breakable: false,
-        [
-            #grid(
-                columns: (1fr, auto),
-                row-gutter: 6pt,
-                {text(size: 10pt, weight: "bold", "Devops Engineer")},
-                {align(right, text(weight: "medium", fill: themeColor, style: "oblique", "Janvier 2016 - Décembre 2017"))},
-                {text(size: 8pt, weight: "medium", fill: themeColor, "Tech-Angels")},
-                {align(right, text(size: 8pt, weight: "medium", fill: gray, style: "oblique", "France, full-remote"))}
-            )
-            - #lorem(40)
-            - #lorem(30)
-            #v(8pt)
+    #CvEntry(
+        jobTitle: "Devops Engineer",
+        date: "Janvier 2016 - Décembre 2017",
+        companyName: "Tech-Angels",
+        location: "France, full-remote",
+        description: [
+          - #lorem(40)
+          - #lorem(30)
         ]
     )
 
     // CV Entry 4.4
-    #block(
-        breakable: false,
-        [
-            #grid(
-                columns: (1fr, auto),
-                row-gutter: 6pt,
-                {text(size: 10pt, weight: "bold", "Fullstack Developer")},
-                {align(right, text(weight: "medium", fill: themeColor, style: "oblique", "Janvier 2016 - Décembre 2017"))},
-                {text(size: 8pt, weight: "medium", fill: themeColor, "Gemnasium")},
-                {align(right, text(size: 8pt, weight: "medium", fill: gray, style: "oblique", "France, full-remote"))}
-            )
-            - #lorem(40)
-            - #lorem(30)
-            #v(8pt)
+    #CvEntry(
+        jobTitle: "Fullstack Developer",
+        date: "Janvier 2016 - Décembre 2017",
+        companyName: "Gemnasium",
+        location: "France, full-remote",
+        description: [
+          - #lorem(40)
+          - #lorem(30)
         ]
     )
 
     // CV Entry 4.5
-    #block(
-        breakable: false,
-        [
-            #grid(
-                columns: (1fr, auto),
-                row-gutter: 6pt,
-                {text(size: 10pt, weight: "bold", "R&D Developer")},
-                {align(right, text(weight: "medium", fill: themeColor, style: "oblique", "Août 2012 - Janvier 2016"))},
-                {text(size: 8pt, weight: "medium", fill: themeColor, "Bearstech")},
-                {align(right, text(size: 8pt, weight: "medium", fill: gray, style: "oblique", "France, full-remote"))}
-            )
-            - #lorem(40)
-            - #lorem(30)
-            #v(8pt)
+    #CvEntry(
+        jobTitle: "R&D Developer",
+        date: "Août 2012 - Janvier 2016",
+        companyName: "Bearstech",
+        location: "France, full-remote",
+        description: [
+          - #lorem(40)
+          - #lorem(30)
         ]
     )
-
 
     // CV Entry 4.6
-    #block(
-        breakable: false,
-        [
-            #grid(
-                columns: (1fr, auto),
-                row-gutter: 6pt,
-                {text(size: 10pt, weight: "bold", "Product Management, Lead Developer, Devops")},
-                {align(right, text(weight: "medium", fill: themeColor, style: "oblique", "Janvier 2006 - Juillet 2012"))},
-                {text(size: 8pt, weight: "medium", fill: themeColor, "IS-Webdesign")},
-                {align(right, text(size: 8pt, weight: "medium", fill: gray, style: "oblique", "Metz"))}
-            )
-            - #lorem(40)
-            - #lorem(30)
-            #v(8pt)
+    #CvEntry(
+        jobTitle: "Product Management, Lead Developer, Devops",
+        date: "Janvier 2006 - Juillet 2012",
+        companyName: "IS-Webdesign",
+        location: "Metz",
+        description: [
+          - #lorem(40)
+          - #lorem(30)
         ]
     )
-
 
     // CV Entry 4.7
-    #block(
-        breakable: false,
-        [
-            #grid(
-                columns: (1fr, auto),
-                row-gutter: 6pt,
-                {text(size: 10pt, weight: "bold", "Développeur sénior")},
-                {align(right, text(weight: "medium", fill: themeColor, style: "oblique", "Septembre 2005 - Décembre 2005"))},
-                {text(size: 8pt, weight: "medium", fill: themeColor, "Linbox")},
-                {align(right, text(size: 8pt, weight: "medium", fill: gray, style: "oblique", "Metz"))}
-            )
-            - #lorem(40)
-            - #lorem(30)
-            #v(8pt)
+    #CvEntry(
+        jobTitle: "Développeur sénior",
+        date: "Septembre 2005 - Décembre 2005",
+        companyName: "Linbox",
+        location: "Metz",
+        description: [
+          - #lorem(40)
+          - #lorem(30)
         ]
     )
+
 
