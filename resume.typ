@@ -44,6 +44,17 @@
         right: 1.4cm,
         top: .8cm,
         bottom: .4cm,
+    ),
+    footer: pad(
+        y: -10pt,
+        [
+            #set align(right)
+            #set text(
+                size: 8pt,
+                fill: rgb("#777")
+            )
+            #counter(page).display("1 sur 1", both:true)
+        ]
     )
 )
 
