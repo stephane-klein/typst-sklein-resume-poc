@@ -12,6 +12,34 @@
 )
 #let themeColor = awesomeColors.red
 
+#let Section(
+  title: ("Sec", "tion title"),
+  content: ""
+) = block(
+    breakable: true,
+    [
+      #v(1pt)
+      #box({
+          text(
+              size: 16pt,
+              weight: "bold",
+              fill: themeColor,
+              title.at(0)
+          )
+          text(
+              size: 16pt,
+              weight: "bold",
+              fill: black,
+              title.at(1)
+          )
+      })
+      #h(2pt)
+      #box(width: 1fr, line(stroke: 0.9pt, length: 100%))
+
+      #content
+    ]
+)
+
 #let CvEntry(
   jobTitle: "Job Title",
   date: "Janvier 2020 - Décembre 2022",
