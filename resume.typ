@@ -80,6 +80,12 @@
         ]
     )
 )
+#show footnote.entry: it => [
+    #set par(hanging-indent: 0.7em)
+    #set text(fill: rgb("#aaa"))
+    #it.note.numbering #it.note.body
+    #v(14pt)
+]
 
 // Helper utility
 #let hBar() = [
