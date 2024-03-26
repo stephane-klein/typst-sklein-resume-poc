@@ -189,7 +189,7 @@
             weight: "light",
             size: 0.8em,
             [
-                Dans cette introduction, je souhaite vous présenter les contextes dans lesquels j'ai évolué. Vous n'y trouverais
+                Dans cette introduction — temps de lecture 3 minutes — je souhaite vous présenter les contextes dans lesquels j'ai évolué. Vous n'y trouverais
                 pas de liste de langages de programmations, de briques logiciels…
             ]
         )
