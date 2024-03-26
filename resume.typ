@@ -149,22 +149,36 @@
             weight: "medium",
             style: "italic",
             fill: themeColor,
-            lorem(16)
+            [
+                Software Craftsman #footnote[Artisan développeur, voir https://fr.wikipedia.org/wiki/Software_craftsmanship] avec plus de 20 ans d'expérience pouvant être contributeur individuel ou manager
+        ]
         )
     ]
 )
 #v(16pt)
 
 // Section 2 : Profile
+// #Section(
+//     title: ("Pro", "file"),
+//     content: [
+//         #balanced-columns(
+//             count: 2,
+//             [
+//                 Je suis un *artisan développeur* avec plus de 20 ans d'expérience.
+//                 Durant ces années, j'ai exercée souvent un rôle de *contributeur individuel* et quelque fois un rôle *manager*.
+//                 J'ai évolué dans de petites structures telles qu'une *agence web* comptant moins de 10 employés, ou dans des entreprises
+//                 de plus grande envergure, comme un *cloud provider* employant plus de 300 collaborateurs.
+//             ]
+//         )
+//     ]
+// )
 #Section(
     title: ("Pro", "file"),
     content: [
-        #balanced-columns(
-            count: 2,
-            [
-                #lorem(80)
-            ]
-        )
+        Je suis un *artisan développeur* avec plus de 20 ans d'expérience.
+        Durant ces années, j'ai exercée souvent un rôle de *contributeur individuel* et quelque fois un rôle *manager*.
+        J'ai évolué dans de petites structures telles qu'une *agence web* comptant moins de 10 employés, ou dans des entreprises
+        de plus grande envergure, comme un *cloud provider* employant plus de 300 collaborateurs.
     ]
 )
 
