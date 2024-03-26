@@ -225,6 +225,14 @@
         Mais cela n'a pas été sans difficulté, pour cela je vous invite à lire mon article
         #link("https://sklein.xyz/fr/garden/020-keep-it-simple-stupid-le-plus-longtemps-possible/")["Keep it simple, stupid le
         plus longtemps possible"] #footnote[https://sklein.xyz/fr/garden/020-keep-it-simple-stupid-le-plus-longtemps-possible/].
+
+        *Une seconde période, ces 10 dernières années*, pendant lesquels j’aime dire, que je suis passé de “solo dev” à
+        “team dev”.\
+        En 2012, j’ai souhaité quitter l’univers du service, j’avais envie de découvrir ce qu’était le développement en équipe,
+        sur des projets de plus grande envergure… Je souhaitais m’orienter vers des entreprises qui développaient leur produit
+        en interne pour me permettre de contribuer à ces projets sur plusieurs années, ce qui était difficilement réalisable
+        dans mes expériences passées.
+
     ]
 )
 
