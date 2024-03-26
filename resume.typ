@@ -47,13 +47,22 @@
     ),
     header: context {
         if counter(page).get().first() == 1 [
-            #set text(
-                size: 6pt,
-                fill: rgb("#aaa")
-            )
-            #align(
-                right,
-                "Dernière mise à jour le 20 mars 2024"
+            #pad(
+                y: -20pt,
+                [
+                    #set text(
+                        size: 6pt,
+                        fill: rgb("#aaa")
+                    )
+                    #align(
+                        right,
+                        [
+                            Ce document date du 26 mars 2024\
+                            Dernière version disponible sur\
+                            https://cv.sklein.xyz\
+                        ]
+                    )
+                ]
             )
         ]
     },
@@ -64,28 +73,23 @@
                 size: 8pt,
                 fill: rgb("#aaa")
             )
-            #grid(
-                columns: (auto, 1fr),
-                [
-                    Dernière version du document disponible sur https://cv.sklein.xyz
-                    #h(10pt)
-                ],
-                {
-                    align(
-                        right,
-                        counter(page).display("1 sur 1", both:true)
-                    )
-                }
+            #align(
+                right,
+                counter(page).display("1 sur 1", both:true)
             )
         ]
     )
 )
-#show footnote.entry: it => [
-    #set par(hanging-indent: 0.7em)
-    #set text(fill: rgb("#aaa"))
-    #it.note.numbering #it.note.body
-    #v(14pt)
-]
+#show footnote.entry: it => {
+    set par(hanging-indent: 0.7em)
+    set text(fill: rgb("#aaa"))
+    let loc = it.note.location()
+    numbering(
+       "1: ",
+       ..counter(footnote).at(loc),
+    )
+    it.note.body
+}
 
 // Helper utility
 #let hBar() = [
@@ -156,7 +160,7 @@
             style: "italic",
             fill: themeColor,
             [
-                Software Craftsman #footnote[Artisan développeur, voir https://fr.wikipedia.org/wiki/Software_craftsmanship] avec plus de 20 ans d'expérience pouvant être contributeur individuel ou manager
+                Software Craftsman avec plus de 20 ans d'expérience pouvant être Individual Contributor ou Manager
         ]
         )
     ]
@@ -179,12 +183,24 @@
 //     ]
 // )
 #Section(
-    title: ("Pro", "file"),
+    title: ("Int", "roduction"),
     content: [
-        Je suis un *artisan développeur* avec plus de 20 ans d'expérience.
-        Durant ces années, j'ai exercée souvent un rôle de *contributeur individuel* et quelque fois un rôle *manager*.
-        J'ai évolué dans de petites structures telles qu'une *agence web* comptant moins de 10 employés, ou dans des entreprises
-        de plus grande envergure, comme un *cloud provider* employant plus de 300 collaborateurs.
+        Je suis un *artisan développeur*
+        #footnote[Software Craftsman en anglais, voir : https://fr.wikipedia.org/wiki/Software_craftsmanship]
+        avec plus de 20 ans d'expérience, qui apprécie aussi bien le rôle de
+        *contributeur individuel* #footnote[Individual Contributor : https://www.urbandictionary.com/define.php?term=Individual+Contributor]
+        que celui de *manager*.\
+
+        Je peux résumer mon pacours en deux périodes.\
+        Une première période en agence web, de 10 ans pendant lesquels j'ai travaillé sur des projets de sites ou d'applications web vendus
+        généralement sous la forme de contrats au forfait #footnote[Par opposition aux contrats en régie :
+        https://fr.wikipedia.org/wiki/Forfait#Commercial].\
+        Je m'occupais très souvent de tout de cycle de vie de ces projets : l'analyse, le chiffrage financier, la
+        rédaction de l'offre au client, le développement informatique, le suivi du projet avec le client, le déploiement
+        et la maintenance. En simplifiant, je peux dire que pendant toute cette période j'étais _Product Manager_, _DevOps_, et _Customer
+        Care_…
+
+        // Cette grande autonomie dans mon travail a été une chance pour moi, cela m'a permi de progresser dans énormément de domaine 
     ]
 )
 
