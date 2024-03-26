@@ -185,22 +185,46 @@
 #Section(
     title: ("Int", "roduction"),
     content: [
+        #text(
+            weight: "light",
+            size: 0.8em,
+            [
+                Dans cette introduction, je souhaite vous présenter les contextes dans lesquels j'ai évolué. Vous n'y trouverais
+                pas de liste de langages de programmations, de briques logiciels…
+            ]
+        )
+
         Je suis un *artisan développeur*
         #footnote[Software Craftsman en anglais, voir : https://fr.wikipedia.org/wiki/Software_craftsmanship]
         avec plus de 20 ans d'expérience, qui apprécie aussi bien le rôle de
         *contributeur individuel* #footnote[Individual Contributor : https://www.urbandictionary.com/define.php?term=Individual+Contributor]
-        que celui de *manager*.\
+        que celui de *manager*.
 
-        Je peux résumer mon pacours en deux périodes.\
-        Une première période en agence web, de 10 ans pendant lesquels j'ai travaillé sur des projets de sites ou d'applications web vendus
+
+        Je peux résumer mon parcours en deux périodes.
+
+        *Une première période de 10 ans en agence web*, pendant lesquels j'ai travaillé sur des projets de sites ou d'applications web vendus
         généralement sous la forme de contrats au forfait #footnote[Par opposition aux contrats en régie :
         https://fr.wikipedia.org/wiki/Forfait#Commercial].\
-        Je m'occupais très souvent de tout de cycle de vie de ces projets : l'analyse, le chiffrage financier, la
+        Je m'occupais très souvent de tout le cycle de vie de ces projets : l'analyse, le chiffrage financier, la
         rédaction de l'offre au client, le développement informatique, le suivi du projet avec le client, le déploiement
-        et la maintenance. En simplifiant, je peux dire que pendant toute cette période j'étais _Product Manager_, _DevOps_, et _Customer
-        Care_…
-
-        // Cette grande autonomie dans mon travail a été une chance pour moi, cela m'a permi de progresser dans énormément de domaine 
+        et la maintenance. En simplifiant, je peux dire que pendant toute cette période, j'étais _Product Manager_, _DevOps_, et _Customer
+        Care_…\
+        Cette grande autonomie dans mon travail dans de toutes petites équipes — souvent moins de 10 personnes — a été
+        une chance pour moi, cela m'a permis d'étudier, d'expérimenter et de faire évoluer rapidement mes méthodes de programmation et
+        de gestion de projets.\
+        Cela a été aussi une source de difficulté car ma responsabilité était importante : si mon
+        chiffrage de projet était mauvais, alors j'étais directement impacté dans mon quotidien, l'agence web ne pouvait pas
+        facturer à temps, ce qui générait des difficultés de trésorerie et de versement de salaire, de plus, cela
+        dégradait ma relation avec le client. Travaillant seul sur mes projets, je ne pouvais attribuer mes erreurs qu'à
+        moi-même, ce qui me motivait à chercher constamment à perfectionner ma pratique.\
+        Concernant la gestion de projet, j’ai commencé par essayer de pousser plus loin la qualité des spécifications des
+        projets — le cycle en V — avant de découvrir petit à petit le paradigme du développement agile, les notions de cycles
+        d’itérations courtes…\
+        Toujours pour réaliser mes projets le plus rapidement possible, je me suis orienté vers des frameworks Rails like tels que Django…
+        Mais cela n'a pas été sans difficulté, pour cela je vous invite à lire mon article
+        #link("https://sklein.xyz/fr/garden/020-keep-it-simple-stupid-le-plus-longtemps-possible/")["Keep it simple, stupid le
+        plus longtemps possible"] #footnote[https://sklein.xyz/fr/garden/020-keep-it-simple-stupid-le-plus-longtemps-possible/].
     ]
 )
 
