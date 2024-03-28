@@ -203,6 +203,24 @@
 
         Je peux résumer mon parcours en deux périodes.
 
+        #text(
+            size: 1.6em,
+            [
+                #align(
+                    center,
+                    [
+                        #pad(
+                            x: 0.5em,
+                            y: 0.5em,
+                            [
+                                _« À la recherche de comment développer une application vite et “bien” »_
+                            ]
+                        )
+                    ]
+                )
+            ]
+        )
+
         *Une première période de 10 ans en agence web*, pendant lesquels j'ai travaillé sur des projets de sites ou d'applications web vendus
         généralement sous la forme de contrats au forfait #footnote[Par opposition aux contrats en régie :
         https://fr.wikipedia.org/wiki/Forfait#Commercial].
@@ -231,11 +249,30 @@
         #link("https://sklein.xyz/fr/garden/020-keep-it-simple-stupid-le-plus-longtemps-possible/")["Keep it simple, stupid le
         plus longtemps possible"] #footnote[https://sklein.xyz/fr/garden/020-keep-it-simple-stupid-le-plus-longtemps-possible/].
 
+        #text(
+            size: 1.6em,
+            [
+                #align(
+                    center,
+                    [
+                        #pad(
+                            x: 0.5em,
+                            y: 0.5em,
+                            [
+                                _« À la recherche de comment travailler en équipe efficacement »_
+                            ]
+                        )
+                    ]
+                )
+            ]
+        )
+
         *Une seconde période, ces 10 dernières années*, pendant lesquels j’aime dire, que je suis passé de “solo dev” à
-        “team dev”.\
+        “team dev”.
+
         En 2012, j’ai souhaité quitter l’univers du service, j’avais envie de découvrir ce qu’était le développement en équipe,
         sur des projets de plus grande envergure… Je souhaitais m’orienter vers des entreprises qui développaient leur produit
-        en interne pour me permettre de contribuer à ces projets sur plusieurs années, ce qui était difficilement réalisable
+        en interne pour me permettre de contribuer à des projets sur plusieurs années, ce qui était difficilement réalisable
         dans mes expériences passées.
 
     ]
