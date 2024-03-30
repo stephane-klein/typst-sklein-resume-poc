@@ -184,7 +184,7 @@
 // )
 #Section(
     title: ("Int", "roduction"),
-    content: [
+    content: ([
         #text(
             weight: "light",
             size: 0.8em,
@@ -213,7 +213,7 @@
                             x: 0.5em,
                             y: 0.5em,
                             [
-                                _« À la recherche de comment développer une application vite et “bien” »_
+                                _« Comment développer des applications vite et sans bug ? »_
                             ]
                         )
                     ]
@@ -259,7 +259,7 @@
                             x: 0.5em,
                             y: 0.5em,
                             [
-                                _« À la recherche de comment travailler en équipe efficacement »_
+                                _« Comment développer des applications en équipe ? »_
                             ]
                         )
                     ]
@@ -267,15 +267,22 @@
             ]
         )
 
-        *Une seconde période, ces 10 dernières années*, pendant lesquels j’aime dire, que je suis passé de “solo dev” à
+        *Une seconde période, qui correspond à ces 10 dernières années*, pendant lesquels j’aime dire, que je suis passé de “solo dev” à
         “team dev”.
 
         En 2012, j’ai souhaité quitter l’univers du service, j’avais envie de découvrir ce qu’était le développement en équipe,
-        sur des projets de plus grande envergure… Je souhaitais m’orienter vers des entreprises qui développaient leur produit
+        sur des projets de plus grande envergure…\
+        Je souhaitais m’orienter vers des entreprises qui développaient leur produit
         en interne pour me permettre de contribuer à des projets sur plusieurs années, ce qui était difficilement réalisable
         dans mes expériences passées.
 
-    ]
+        Dans cette quête du travail en équipe, j'ai commencé par essayer de trouver des méthodes permettant à mes projets
+        d'être facilement installés localement et déployés par mes collègues. Ces objectifs m'ont amené à développer
+        mes compétences _DevOps_.
+
+        Ensuite, j'ai pris conscience que dans le cadre d'un travaille en équipe, la facilité de lecture du code était
+        plus important que sa facilité d'écriture. J'ai alors compris tout l'intérêt du principe KISS #footnote[Keep it simple, stupid! https://en.wikipedia.org/wiki/KISS_principle].
+    ],)
 )
 
 
