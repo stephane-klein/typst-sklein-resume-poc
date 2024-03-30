@@ -289,40 +289,31 @@
 // Section 3 : Areas of Expertise
 #Section(
     title: ("Dom", "aine d'expertise"),
-    content: [
+    content: ([
         #balanced-columns(
             count: 2,
             [
                 #lorem(80)
             ]
         )
-    ]
+    ],)
 )
 
+#v(1cm)
 
-
-// Section 4 : Professional Experience
 #Section(
     title: ("Exp", "érience professionnelle"),
-    content: [
-        // Section content
-        #{
-            for (jobTitle, date, companyName, location) in yaml("resume.yaml").experiences {
-                [
-                    #CvEntry(
-                        jobTitle: jobTitle,
-                        date: date,
-                        companyName: companyName,
-                        location: location,
-                        description: [
-                          - #lorem(40)
-                          - #lorem(30)
-                        ]
-                    )
+    content: yaml("resume.yaml").experiences.map(element => [
+        #CvEntry(
+                jobTitle: element.jobTitle,
+                date: element.date,
+                companyName: element.companyName,
+                location: element.location,
+                description: [
+                  - #lorem(40)
+                  - #lorem(30)
                 ]
-            }
-        }
-    ]
+            )
+        ]
+    )
 )
-
-

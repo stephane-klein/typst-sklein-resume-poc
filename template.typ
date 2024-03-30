@@ -14,31 +14,36 @@
 
 #let Section(
   title: ("Sec", "tion title"),
-  content: ""
-) = block(
-    breakable: true,
-    [
-      #v(1pt)
-      #box({
-          text(
-              size: 16pt,
-              weight: "bold",
-              fill: themeColor,
-              title.at(0)
-          )
-          text(
-              size: 16pt,
-              weight: "bold",
-              fill: black,
-              title.at(1)
-          )
-      })
-      #h(2pt)
-      #box(width: 1fr, line(stroke: 0.9pt, length: 100%))
-
-      #content
-    ]
-)
+  content: ()
+) = [
+    #for (idx, value) in content.enumerate() {
+        block(
+            breakable: false,
+            [
+                #if (idx == 0) [
+                    #v(1pt)
+                    #box({
+                        text(
+                            size: 16pt,
+                            weight: "bold",
+                            fill: themeColor,
+                            title.at(0)
+                        )
+                        text(
+                            size: 16pt,
+                            weight: "bold",
+                            fill: black,
+                            title.at(1)
+                        )
+                    })
+                    #h(2pt)
+                    #box(width: 1fr, line(stroke: 0.9pt, length: 100%))
+                ]
+                #value
+            ]
+        )
+    }
+]
 
 #let CvEntry(
   jobTitle: "Job Title",
