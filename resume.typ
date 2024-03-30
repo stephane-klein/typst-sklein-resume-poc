@@ -267,21 +267,30 @@
             ]
         )
 
-        *Une seconde période, qui correspond à ces 10 dernières années*, pendant lesquels j’aime dire, que je suis passé de “solo dev” à
-        “team dev”.
+        *Une seconde période, qui correspond à ces 10 dernières années*, pendant lesquelles j’aime dire que je suis passé de
+        “solo dev” à “team dev”.
 
-        En 2012, j’ai souhaité quitter l’univers du service, j’avais envie de découvrir ce qu’était le développement en équipe,
+        En 2012, j’ai souhaité quitter l’univers du service. J'avais envie de découvrir ce qu’était le développement en équipe,
         sur des projets de plus grande envergure…\
-        Je souhaitais m’orienter vers des entreprises qui développaient leur produit
-        en interne pour me permettre de contribuer à des projets sur plusieurs années, ce qui était difficilement réalisable
-        dans mes expériences passées.
+        Je souhaitais m’orienter vers des entreprises qui développaient leur produit en interne pour me permettre de contribuer
+        à des projets sur plusieurs années, ce qui était difficilement réalisable dans mes expériences passées.
 
-        Dans cette quête du travail en équipe, j'ai commencé par essayer de trouver des méthodes permettant à mes projets
-        d'être facilement installés localement et déployés par mes collègues. Ces objectifs m'ont amené à développer
-        mes compétences _DevOps_.
+        Dans cette quête du travail en équipe, j’ai commencé par essayer de trouver des méthodes permettant à mes projets
+        d’être facilement installés localement et déployés par mes collègues. Ces objectifs m’ont amené à développer
+        mes compétences DevOps.
 
-        Ensuite, j'ai pris conscience que dans le cadre d'un travaille en équipe, la facilité de lecture du code était
-        plus important que sa facilité d'écriture. J'ai alors compris tout l'intérêt du principe KISS #footnote[Keep it simple, stupid! https://en.wikipedia.org/wiki/KISS_principle].
+        Ensuite, j’ai pris conscience que dans le cadre d’un travail en équipe, la facilité de lecture du code était plus
+        importante que sa facilité d’écriture. J’ai alors compris tout l’intérêt du principe KISS #footnote[Keep it simple, stupid! https://en.wikipedia.org/wiki/KISS_principle].
+
+        Peu à peu, j'ai arrêté de chercher la dernière technologie à la mode qui promet – comme toujours – d'être "une
+        balle d'argent"#footnote[No silver bullet https://en.wikipedia.org/wiki/No_Silver_Bullet], mais au contraire,
+        j'ai commencé à ressentir un besoin de simplification, qui s'est manifesté par un effort de réduction du nombre de couches d'abstraction.
+
+        Face aux difficultés des organisations que je pouvais observer, je me suis intéressé à l'étude des systèmes
+        complexes #footnote[https://fr.wikipedia.org/wiki/Syst%C3%A8me_complexe], la théorie des contraintes #footnote[https://fr.wikipedia.org/wiki/Th%C3%A9orie_des_contraintes], les méthodes leans,
+        j'ai porté mon attention sur les flux...
+
+        #lorem(80)
     ],)
 )
 
