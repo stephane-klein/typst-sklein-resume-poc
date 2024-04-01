@@ -167,133 +167,47 @@
 )
 #v(16pt)
 
-// Section 2 : Profile
-// #Section(
-//     title: ("Pro", "file"),
-//     content: [
-//         #balanced-columns(
-//             count: 2,
-//             [
-//                 Je suis un *artisan développeur* avec plus de 20 ans d'expérience.
-//                 Durant ces années, j'ai exercée souvent un rôle de *contributeur individuel* et quelque fois un rôle *manager*.
-//                 J'ai évolué dans de petites structures telles qu'une *agence web* comptant moins de 10 employés, ou dans des entreprises
-//                 de plus grande envergure, comme un *cloud provider* employant plus de 300 collaborateurs.
-//             ]
-//         )
-//     ]
-// )
 #Section(
-    title: ("Int", "roduction"),
+    title: ("Qui", " suis-je ?"),
     content: ([
-        #text(
-            weight: "light",
-            size: 0.8em,
-            [
-                Dans cette introduction — temps de lecture 3 minutes — je souhaite vous présenter les contextes dans lesquels j'ai évolué. Vous n'y trouverais
-                pas de liste de langages de programmations, de briques logiciels…
-            ]
-        )
+        Je suis un artisan développeur de plus de 20 ans d'expérience.
 
-        Je suis un *artisan développeur*
-        #footnote[Software Craftsman en anglais, voir : https://fr.wikipedia.org/wiki/Software_craftsmanship]
-        avec plus de 20 ans d'expérience, qui apprécie aussi bien le rôle de
-        *contributeur individuel* #footnote[Individual Contributor : https://www.urbandictionary.com/define.php?term=Individual+Contributor]
-        que celui de *manager*.
+        De 2019 à 2023, j'ai occupé le poste de CTO dans une startup parisienne, que j'ai rejoint juste après son financement initial.
+        Avec mes collègues, nous avons élargi l'équipe tech de 1 à 16 personnes au cours de deux levées de fonds
+        successives d'environ 5 M€ et 20 M€.
 
-
-        Je peux résumer mon parcours en deux périodes.
-
-        #text(
-            size: 1.6em,
-            [
-                #align(
-                    center,
-                    [
-                        #pad(
-                            x: 0.5em,
-                            y: 0.5em,
-                            [
-                                _« Comment développer des applications vite et sans bug ? »_
-                            ]
-                        )
-                    ]
-                )
-            ]
-        )
-
-        *Une première période de 10 ans en agence web*, pendant lesquels j'ai travaillé sur des projets de sites ou d'applications web vendus
-        généralement sous la forme de contrats au forfait #footnote[Par opposition aux contrats en régie :
-        https://fr.wikipedia.org/wiki/Forfait#Commercial].
-
-        Je m'occupais très souvent de tout le cycle de vie de ces projets : l'analyse, le chiffrage financier, la
-        rédaction de l'offre au client, le développement informatique, le suivi du projet avec le client, le déploiement
-        et la maintenance. En simplifiant, je peux dire que pendant toute cette période, j'étais _Product Manager_, _DevOps_, et _Customer
-        Care_…
-
-        Cette grande autonomie dans mon travail dans de toutes petites équipes — souvent moins de 10 personnes — a été
-        une chance pour moi, cela m'a permis d'étudier, d'expérimenter et de faire évoluer rapidement mes méthodes de programmation et
-        de gestion de projets.
-
-        Cela a été aussi une source de difficulté car ma responsabilité était importante : si mon
-        chiffrage de projet était mauvais, alors j'étais directement impacté dans mon quotidien, l'agence web ne pouvait pas
-        facturer à temps, ce qui générait des difficultés de trésorerie et de versement de salaire, de plus, cela
-        dégradait ma relation avec le client. Travaillant seul sur mes projets, je ne pouvais attribuer mes erreurs qu'à
-        moi-même, ce qui me motivait à chercher constamment à perfectionner ma pratique.\
-        Concernant la gestion de projet, j’ai commencé par essayer de pousser plus loin la qualité des spécifications des
-        projets — le cycle en V — et cela a été un échec.\
-        J'ai ensuite découvert petit à petit le paradigme du développement agile, les notions de cycles d’itérations courtes…
-
-        Toujours pour réaliser mes projets le plus rapidement possible, je me suis orienté vers des frameworks Rails
-        like tels que Django…\
-        Mais cela n'a pas été sans difficulté, pour cela je vous invite à lire mon article
-        #link("https://sklein.xyz/fr/garden/020-keep-it-simple-stupid-le-plus-longtemps-possible/")["Keep it simple, stupid le
-        plus longtemps possible"] #footnote[https://sklein.xyz/fr/garden/020-keep-it-simple-stupid-le-plus-longtemps-possible/].
-
-        #text(
-            size: 1.6em,
-            [
-                #align(
-                    center,
-                    [
-                        #pad(
-                            x: 0.5em,
-                            y: 0.5em,
-                            [
-                                _« Comment développer des applications en équipe ? »_
-                            ]
-                        )
-                    ]
-                )
-            ]
-        )
-
-        *Une seconde période, qui correspond à ces 10 dernières années*, pendant lesquelles j’aime dire que je suis passé de
-        “solo dev” à “team dev”.
-
-        En 2012, j’ai souhaité quitter l’univers du service. J'avais envie de découvrir ce qu’était le développement en équipe,
-        sur des projets de plus grande envergure…\
-        Je souhaitais m’orienter vers des entreprises qui développaient leur produit en interne pour me permettre de contribuer
-        à des projets sur plusieurs années, ce qui était difficilement réalisable dans mes expériences passées.
-
-        Dans cette quête du travail en équipe, j’ai commencé par essayer de trouver des méthodes permettant à mes projets
-        d’être facilement installés localement et déployés par mes collègues. Ces objectifs m’ont amené à développer
-        mes compétences DevOps.
-
-        Ensuite, j’ai pris conscience que dans le cadre d’un travail en équipe, la facilité de lecture du code était plus
-        importante que sa facilité d’écriture. J’ai alors compris tout l’intérêt du principe KISS #footnote[Keep it simple, stupid! https://en.wikipedia.org/wiki/KISS_principle].
-
-        Peu à peu, j'ai arrêté de chercher la dernière technologie à la mode qui promet – comme toujours – d'être "une
-        balle d'argent"#footnote[No silver bullet https://en.wikipedia.org/wiki/No_Silver_Bullet], mais au contraire,
-        j'ai commencé à ressentir un besoin de simplification, qui s'est manifesté par un effort de réduction du nombre de couches d'abstraction.
-
-        Face aux difficultés des organisations que je pouvais observer, je me suis intéressé à l'étude des systèmes
-        complexes #footnote[https://fr.wikipedia.org/wiki/Syst%C3%A8me_complexe], la théorie des contraintes #footnote[https://fr.wikipedia.org/wiki/Th%C3%A9orie_des_contraintes], les méthodes leans,
-        j'ai porté mon attention sur les flux...
-
-        #lorem(80)
+        Depuis un an, j'ai lancé et développé en auto-financement une application SaaS avec trois co-fondateurs.
     ],)
 )
 
+#Section(
+    title: ("Mes", " objectifs professionnels"),
+    content: ([
+        Depuis avril 2024, je suis à la recherche de missions freelance de 4 à 8 jours par mois.\
+        À partir de septembre 2024, il est possible que je sois à la recherche de mission de 16 jours par mois, en freelance ou en tant que salarié.
+    ],)
+)
+
+#Section(
+    title: ("Pro", "jets susceptibles de m'intéresser"),
+    content: ([
+        Je suis ouvert aux missions de Contributeur Individuel#footnote[Individual Contributor : https://www.urbandictionary.com/define.php?term=Individual+Contributor] comme de management, au sein de toutes petites structures ou des ETI.
+
+        **
+    ],)
+)
+
+#Section(
+    title: ("Typ", "es de projets qui ne m'intéressent pas"),
+    content: ([
+
+        Actuellement, les secteurs tels que les DeFi, l'AdTech et les jeux vidéos ne m'intéressent pas.\
+        Les projets d'applications mobiles natives ne sont pas non plus dans mes recherches actuelles, bien que ce soit un domaine qui m'intéresse, je n'ai pas encore développé de compétences spécifiques dans ce secteur.
+
+        Je ne souhaite pas manager une équipe non francophone. Le management demande de la finesse et de la subtilité en
+        communication, en raison de mon niveau d'anglais oral, je ne me sens pas en mesure de gérer efficacement une équipe non francophone.
+    ],)
+)
 
 // Section 3 : Areas of Expertise
 #Section(

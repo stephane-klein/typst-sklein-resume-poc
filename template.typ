@@ -44,6 +44,7 @@
             ]
         )
     }
+    #v(12pt)
 ]
 
 #let CvEntry(
