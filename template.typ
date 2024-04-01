@@ -38,13 +38,14 @@
                     })
                     #h(2pt)
                     #box(width: 1fr, line(stroke: 0.9pt, length: 100%))
+                    #v(2pt)
                 ]
 
                 #value
             ]
         )
     }
-    #v(12pt)
+    #v(6pt)
 ]
 
 #let CvEntry(

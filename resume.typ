@@ -176,7 +176,7 @@
         Avec mes collègues, nous avons élargi l'équipe tech de 1 à 16 personnes au cours de deux levées de fonds
         successives d'environ 5 M€ et 20 M€.
 
-        Depuis un an, j'ai lancé et développé en auto-financement une application SaaS avec trois co-fondateurs.
+        Depuis septembre 2023, je travaille sur le développement d'une application SaaS que j'ai lancé avec trois co-fondateurs.
     ],)
 )
 
