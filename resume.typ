@@ -192,8 +192,6 @@
     title: ("Pro", "jets susceptibles de m'intéresser"),
     content: ([
         Je suis ouvert aux missions de Contributeur Individuel#footnote[Individual Contributor : https://www.urbandictionary.com/define.php?term=Individual+Contributor] comme de management, au sein de toutes petites structures ou des ETI.
-
-        **
     ],)
 )
 
@@ -213,16 +211,17 @@
 #Section(
     title: ("Dom", "aine d'expertise"),
     content: ([
-        #balanced-columns(
-            count: 2,
-            [
-                #lorem(80)
-            ]
-        )
+        *Frontend Development :* JavaScript (front), ReactJS, Svelte, SvelteKit, HTML/CSS avancé, TailwindCSS, Yjs
+
+        *Backend Development :* Go, Python, JavaScript (back), GraphQL, REST, gRPC, Playwright, Écriture basique de script Bash, Singer (ETL)
+
+        *Database :* SQL, PostgreSQL avancé, PL/pgSQL, SQLite, Redis, Clickhouse, Neo4j (Cypher), Metabase
+
+        *DevOps :* Docker, Vagrant, Postfix, Nginx, Ansible, Terraform, Grafana, Prometheus, Loki, Kubernetes, Debian/Ubuntu/RedHat,  Baremetal, AWS, Scaleway, OVH, Vector (data pipeline)
+
+        *Software Engineering :* Git, Scrum, TDD, Lean, GitOps
     ],)
 )
-
-#v(1cm)
 
 #Section(
     title: ("Exp", "érience professionnelle"),
